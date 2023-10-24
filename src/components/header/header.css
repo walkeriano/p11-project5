@@ -1,0 +1,53 @@
+.header-body{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-yellow{
+    width: 100%;
+    height: 30px;
+    background-color:yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.bar-tools{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-logo{
+    width: 15%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.logo-dec{
+    width: 150px;
+    margin-left: 20px;
+}
+
+.box-search{
+    width: 65%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-tools{
+    width: 20%;
+    border: 1px solid red;
+}
