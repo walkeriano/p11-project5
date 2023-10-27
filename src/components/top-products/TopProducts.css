@@ -1,0 +1,143 @@
+.box-products{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont-products {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.title-cont {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.slider-products {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  margin-bottom: 10px;
+}
+
+.card {
+  min-width: 300px;
+  height: 350px;
+  box-shadow: 0px 0px 10px rgb(159, 159, 159);
+  margin: 10px 40px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 7px;
+}
+
+.price{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: rgb(255, 225, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.price p{
+  font-size:1.1rem;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.price img{
+  width:14px;
+  margin-top: 2px;
+}
+
+.img-card {
+  width: 70%;
+  height: 220px;
+  object-fit: cover;
+  background-color: rgb(201, 201, 201);
+  border-radius: 7px 7px 0px 0px;
+}
+
+.i-product {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-product h3{
+  text-transform: uppercase;
+  font-size:0.9rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.i-product p{
+  font-size:0.8rem;
+  width: 90%;
+  
+}
+
+.puntos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.puntos img{
+  width:20px;
+}
+
+.btn-cont{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-cont span{
+  width: 7px;
+  height: 7px;
+  background-color:rgb(50, 50, 50);
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.btn-cont button{
+  background-color:transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.img-arrow{
+  width:12px;
+}
+
+.img-arrow-two{
+  width: 12px;
+  transform:rotate(180deg);
+}
